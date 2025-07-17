@@ -18,14 +18,47 @@
     
 // }
 
-public class Hello {
+// public class Hello {
 
-  public static void main(String[] args){
-      int age = 25;
-      double height = 5.9;
-      String name = "Alex";
-      System.out.println("Name:" + name + " Age:" + age + " Height:" + height );
-       // write code here
+//   public static void main(String[] args){
+//       int age = 25;
+//       double height = 5.9;
+//       String name = "Alex";
+//       System.out.println("Name:" + name + " Age:" + age + " Height:" + height );
+//        // write code here
        
-  }
+//   }
+// }
+
+
+class Message{
+
+public void printMessage(int message) {
+
+System.out.println("Message primitive: " + message);
+
+}
+
+
+
+public void printMessage(Integer message) {
+
+System.out.println("Message object: " + message);
+
+}
+
+}
+
+
+
+class Main{
+
+public static void main(String []ars){
+
+Message ob=new Message();
+
+ob.printMessage(5);
+
+}
+
 }
